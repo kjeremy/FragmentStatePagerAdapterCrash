@@ -6,6 +6,11 @@
     android:layout_height="fill_parent">
     <TextView
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
         local:MvxBind="Text Title" />
+    <LinearLayout
+        android:id="@+id/child_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
 </LinearLayout>

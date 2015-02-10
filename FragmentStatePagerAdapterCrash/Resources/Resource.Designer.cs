@@ -86,6 +86,9 @@ namespace FragmentStatePagerAdapterCrash
 			// aapt resource value: 0x7f050000
 			public const int MvxBindingTagUnique = 2131034112;
 			
+			// aapt resource value: 0x7f050003
+			public const int child_container = 2131034115;
+			
 			// aapt resource value: 0x7f050001
 			public const int pager = 2131034113;
 			
@@ -109,10 +112,13 @@ namespace FragmentStatePagerAdapterCrash
 			public const int FirstView = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int PagerView = 2130903041;
+			public const int PagerContainer = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int SplashScreen = 2130903042;
+			public const int PagerView = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int SplashScreen = 2130903043;
 			
 			static Layout()
 			{

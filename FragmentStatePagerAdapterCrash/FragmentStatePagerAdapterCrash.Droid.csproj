@@ -97,6 +97,7 @@
     <Compile Include="Setup.cs" />
     <Compile Include="SplashScreen.cs" />
     <Compile Include="Views\FirstView.cs" />
+    <Compile Include="Views\PagerContainer.cs" />
     <Compile Include="Views\PagerView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +107,9 @@
     <AndroidResource Include="Resources\layout\SplashScreen.axml" />
     <AndroidResource Include="Resources\layout\FirstView.axml" />
     <AndroidResource Include="Resources\layout\PagerView.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\PagerContainer.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>
