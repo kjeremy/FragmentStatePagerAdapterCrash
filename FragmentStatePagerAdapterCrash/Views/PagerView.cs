@@ -101,6 +101,9 @@ namespace FragmentStatePagerAdapterCrash.Views
 
             var child = new NestedView {ViewModel = ViewModel};
             this.ChildFragmentManager.BeginTransaction().Replace(Resource.Id.child_container, child).Commit();
+
+            // Rehydrating the child fragment causes the crash.
+            // If you remove this line it won't happen.
             this.ChildFragment = child;
 
             return view;
